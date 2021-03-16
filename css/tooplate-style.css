@@ -456,6 +456,20 @@ video {
    clear: both;
 }
 
+
+.cargoicon {
+
+   height: 60px;
+   margin: 20px;
+   
+}
+
+.cargo-icon-wrapper {
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
 @media screen and (max-width: 991px) {
 	.tm-top-bar.active, .tm-top-bar, .tm-top-bar-bg { height: 65px; }
 	.tm-top-bar.active .navbar-expand-lg .navbar-nav .nav-link,

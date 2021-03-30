@@ -1,0 +1,340 @@
+/* Header Section */
+.icargo__logo{
+    height: 145px;
+    position: fixed;
+    margin-top: -60px;
+    margin-left: 0px;
+    width: 300px;
+
+}
+.icargo__logo.active{
+   height: 10px;
+}
+@media screen and (max-width: 1200px){
+  .icargo__logo{
+      height: 120px;
+      position: fixed;
+      margin-left: -100px;
+      width: 200px;
+  }
+  
+}
+
+
+@media screen and (max-width: 500px){
+    .icargo__logo{
+        height: 120px;
+        display: flex;
+        margin-left: 20px;
+        margin-top:-45px;
+        width: 200px;
+    }
+    .navbar-toggler{
+        display: flex;
+
+        margin-top:12px;
+    }
+}
+
+
+/* Tracking  Number Section */
+.tracking__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.tracking__wrap input{
+    font-size: 1.08rem;
+    padding: 10px;
+    width: 500px;
+}
+.tracking__wrap button{
+    border-radius: 10px;
+    width: 100px;
+    height: 48px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(241, 93, 93);
+    font-style: initial;
+}
+.divclasstable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 500px;
+    border-style: solid;
+    border: 2pt;
+}
+
+.tablecollapses td{
+    padding: 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+
+.trheightres{
+    background-color: red;
+}
+
+/*  Qoutation Section */
+
+.qoutation__table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.qoutation__table td,th{
+    padding: 10px 150px 30px 40px;
+    border-style: solid;
+    border-color: #183a83;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.qoutation__table td{font-size: 1.3rem;}
+
+.qoutation__table th{
+    font-size: 1.5rem;    
+    background-color: #183a83;
+    color: white;
+    text-align: center;
+}
+.qoutation__table--img img {
+    height: 50px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoutation__table--imgapcargo img {
+    height: 50px;
+    background: rgb(212, 147, 6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-control::placeholder{
+    text-align: center;
+}
+@media screen and (max-width: 960px){
+  
+    .qoutation__table td,th{
+        padding: 10px 150px 30px 40px;
+        border-style: solid;
+        border-color: #833618;
+    
+    }
+
+}
+@media screen and (max-width: 580px){
+ 
+    .qoutation__table td,th{
+        font-size: 0.9rem;
+        padding: 10px;
+        border-style: solid;
+        border-color: #f5eeeb;
+    
+    }
+    .qoutation__table th{
+        font-size: 15;
+    }
+}
+.btn__booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.button__qoute{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.button__qoute button {
+    color: white;
+    background-color: rgb(21, 61, 48);
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Cargo Brands Icon Section */
+.cargo-icon-wrapper--img    {
+    background:none;
+    justify-content: center;
+    align-items: center;
+    text-align: center!important;
+}
+.cargo__wrapper--img {
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+}
+@media screen and (max-width: 960px){
+    .cargo__wrapper--img{
+        
+        justify-content: center;
+        align-items:center;
+    }
+    .cargo__wrapper--img img{
+        height: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 480px){
+    .cargo__wrapper--img{
+        display: grid;
+        justify-content: center;
+        align-items:center;
+    }
+}
+/* Main Button Section */
+
+
+@media screen and (max-width: 960px){
+    .main__content button{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 480px){
+    .main__content button{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Footer Section */
+.footer__container{
+    background-color: #183a83;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer__logo{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 10px;
+}
+.footer__links{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link--wrapper{
+    display:flex;     
+}
+
+.footer__link--items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 200px;
+    box-sizing: border-box; 
+}
+
+.footer__link--items h2 {
+    margin-bottom: 16px;
+}
+
+.footer__link--items > h2{
+    color: #fff;
+}
+.footer__link--items a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+/* Social Icons CSS */
+.social__icon--link{
+    color: #fff;
+    font-size: 24px;   
+    margin:10px
+}
+
+.social__media{
+    max-width: 1000px;
+    width: 100%;
+}
+.social__media--wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+.social__icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 240px;
+}
+.social__logo{
+    color: #fff;
+    justify-content: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.website__rights {
+    color: #fff;
+    margin:40px 100px;
+}
+
+@media screen and (max-width: 820px){
+    .footer__links{
+        padding-top: 2rem;
+    }
+    #footer__logo{
+        margin-bottom: 2rem;
+    }
+    .website__rights{
+        margin-bottom: 2rem;
+    }
+
+    .footer__link--wrapper {
+        flex-direction: column;
+    }
+
+    .social__media--wrap{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px){
+    .footer__link--items{
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+
+    }
+
+}

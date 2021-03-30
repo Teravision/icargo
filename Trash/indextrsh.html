@@ -1,23 +1,22 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Home | Icargo</title>
+    <title>Level HTML Template by Tooplate</title>
 
     <!-- load stylesheets -->
     <script src="font-awesome-4.7.0/css/all.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  Google web font "Open Sans" -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
     <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
-    <link rel="stylesheet" href="free.css">
     <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->
-  
+
     
 </head>
 
@@ -31,10 +30,9 @@
                         
                         <nav class="navbar navbar-expand-lg narbar-light">
                             <a class="navbar-brand mr-auto" href="#">
-                                <img src="icargoimages/cargologo.png" alt="Site logo" class="icargo__logo">
-                                
+                                <img src="img/logo.png" alt="Site logo">
+                                CargoSite
                             </a>
-
                             <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -50,9 +48,6 @@
                                     <a class="nav-link" href="#tm-section-5">Services</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="tracking_cargo.html">Track</a>
-                                  </li>
-                                  <li class="nav-item">
                                     <a class="nav-link" href="#tm-section-6">Contact Us</a>
                                   </li>
                                   <li class="nav-item">
@@ -65,24 +60,85 @@
                 </div>
             </div>
             <div class="tm-section tm-bg-img" id="tm-section-1">
-                <div class="ie-container-width-fix-2">
+                <div class="tm-bg-white ie-container-width-fix-2">
                     <div class="container ie-h-align-center-fix">
                         <div class="row">
                             <div class="col-xs-12 ml-auto mr-auto ie-container-width-fix">
-                                    <div class="main">
-                                        <div class="main__container">
-                                            <div class="main__content">
-                                                <h1>WE ARE HERE TO MOVE IT</h1>
-                                                <h2>FOR YOU</h2>
-                                                <p>See What makes us different.</p>
-                                                <button class="main__btn"><a href="get_qoutes.html">GET A QOUTE</a></button>
-                                            </div>
-                                            <!-- <div class="main__img--container">
-                                                <img src="images/pic1.svg" alt="pic" id="main__img">
-                                            </div> -->
+                                <form action="index.html" method="get" class="tm-search-form tm-section-pad-2">
+                                    <div class="form-row tm-search-form-row">
+                                        <div class="form-group tm-form-element tm-form-element-100">
+                                            <i class="fa fa-map-marker fa-2x tm-form-element-icon"></i>
+                                            <input name="city" type="text" class="form-control" id="inputCity" placeholder="Type your destination...">
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-50">
+                                            <i class="fas fa-truck fa-2x tm-form-element-icon"></i>
+                                            <input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="Check In">
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-50">
+                                            <i class="fas fa-truck fa-2x tm-form-element-icon"></i>
+                                            <input name="check-out" type="text" class="form-control" id="inputCheckOut" placeholder="Check Out">
                                         </div>
                                     </div>
-                    </div>                        
+                                    <div class="form-row tm-search-form-row">
+                                        <div class="form-group tm-form-element tm-form-element-2">                                            
+                                            <select name="adult" class="form-control tm-select" id="adult">
+                                                <option value="">Adult</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                            <i class="fa fa-2x fas fa-truck-loading tm-form-element-icon"></i>
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-2">                                            
+                                            <select name="children" class="form-control tm-select" id="children">
+                                                <option value="">Boxes</option>
+                                                <option value="0">0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                            <i class="fa fa-user tm-form-element-icon tm-form-element-icon-small"></i>
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-2">
+                                            <select name="room" class="form-control tm-select" id="room">
+                                                <option value="">KG</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                            <i class="fa fa-2x fas fa-truck-loading tm-form-element-icon"></i>
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-2">
+                                            <button type="submit" class="btn btn-primary tm-btn-search">REQUEST A QOUTE</button>
+                                        </div>
+                                      </div>
+                                      <div class="form-row clearfix pl-2 pr-2 tm-fx-col-xs">
+                                          <p class="tm-margin-b-0">Get in touch with us if you have any queries and we will get back to you as soon as possible.</p>
+                                          <a href="#" class="ie-10-ml-auto ml-auto mt-1 tm-font-semibold tm-color-primary">Need Help?</a>
+                                      </div>
+                                </form>
+                            </div>                        
                         </div>      
                     </div>
                 </div>                  
@@ -92,23 +148,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col text-center">
-                            <h2 class="tm-section-title">Trusted By The Best.</h2>
-                            <div class="cargo-icon-wrapper--img">
-                                <div class="cargo__wrapper--img">
-                                    <img class="cargoicon" src="icargoimages/1200px-LBC_Express_2013_Logo.svg.png" alt="1200px-LBC_Express_2013_Logo" >
-                                </div>    
-                                <div class="cargo__wrapper--img">
-                                    <img class="cargoicon" src="icargoimages/AP-Cargo-Logo-White.png" alt="AP-Cargo-Logo-White" >
-                                </div>    
-                                <div class="cargo__wrapper--img">   
-                                    <img class="cargoicon" src="icargoimages/CaPEx-Logo.png" alt="CaPEx-Logo" >                  
-                                </div>   
-                                <div class="cargo__wrapper--img">   
-                                        <img class="cargoicon" src="icargoimages/jrs-express-logo-main.png" alt="jrs-express-logo-main" >
-                                </div>
-                                <div class="cargo__wrapper--img">
-                                    <img class="cargoicon" src="icargoimages/transportify-logo-green-2.png" alt="transportify-logo-green-2" >
-                                </div>
+                            <h2 class="tm-section-title">We are all here to move it for you.</h2>
+                            <div class="cargo-icon-wrapper">
+                                <img class="cargoicon" src="icargoimages/1200px-LBC_Express_2013_Logo.svg.png" alt="1200px-LBC_Express_2013_Logo" >
+                                <img class="cargoicon" src="icargoimages/AP-Cargo-Logo-White.png" alt="AP-Cargo-Logo-White" >
+                                <img class="cargoicon" src="icargoimages/CaPEx-Logo.png" alt="CaPEx-Logo" >
+                                <img class="cargoicon" src="icargoimages/jrs-express-logo-main.png" alt="jrs-express-logo-main" >
+                                <img class="cargoicon" src="icargoimages/transportify-logo-green-2.png" alt="transportify-logo-green-2" >
                             </div>
                             <p class="tm-color-white tm-section-subtitle">Welcome to our transportation world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for.</p>
                             <a href="#" class="tm-color-white tm-btn-white-bordered">View All Services</a>
@@ -147,11 +193,9 @@
                     </div>        
                 </div>
             </div>
-            
-       
+          
 
             <div class="tm-bg-video">
-                
                 
                 <div class="tm-section tm-section-pad tm-bg-img" id="tm-section-5">                                                        
                     <div class="container ie-h-align-center-fix">

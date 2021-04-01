@@ -56,7 +56,7 @@
     height: 48px;
     font-size: 1.3rem;
     color: white;
-    background-color: rgb(241, 93, 93);
+    background-color: #00a8ec;
     font-style: initial;
 }
 .divclasstable{
@@ -72,12 +72,12 @@
 .tablecollapses td{
     padding: 10px;
     border-style: solid;
-    border-color: red;
+    border-color: #00a8ec;
 }
 
 
 .trheightres{
-    background-color: red;
+    background-color: #00a8ec;
 }
 
 /*  Qoutation Section */
@@ -100,7 +100,7 @@
 
 .qoutation__table th{
     font-size: 1.5rem;    
-    background-color: #183a83;
+    background-color: #00a8ec;
     color: white;
     text-align: center;
 }
@@ -159,7 +159,7 @@
 }
 .button__qoute button {
     color: white;
-    background-color: rgb(21, 61, 48);
+    background-color: #00a8ec;
     border: none;
     font-size: 1.2rem;
     margin-top: 15px;
@@ -219,7 +219,7 @@
 
 /* Footer Section */
 .footer__container{
-    background-color: #183a83;
+    background-color: #00a8ec;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -337,4 +337,39 @@
 
     }
 
+}
+
+.centermodal {
+        
+        position:fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      
+}
+
+.form-modal {
+    
+    margin: 5px; 
+    padding: 5px;   
+    
+    width: 100%;
+    font-size: 15px;
+    
+    }
+
+.btn-default {
+    cursor: pointer;
+    
+}
+
+
+.submit-modal {
+    background: #00a8ec;
+    color: white;
+}
+
+
+.form-modal::placeholder{
+    text-align: center;
 }

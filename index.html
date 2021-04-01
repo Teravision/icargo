@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -75,8 +75,40 @@
                                                 <h1>WE ARE HERE TO MOVE IT</h1>
                                                 <h2>FOR YOU</h2>
                                                 <p>See What makes us different.</p>
-                                                <button class="main__btn"><a href="get_qoutes.html">GET A QOUTE</a></button>
+                                                <button class="main__btn" data-toggle="modal" data-target="#myModal"><a>GET A QOUTE</a></button>
+
+                                           
                                             </div>
+
+
+
+
+                                            <div class="modal fade centermodal" id="myModal" role="dialog">
+                                                <div class="modal-dialog">
+                                                
+                                                  <!-- Modal content-->
+                                                  <div class="modal-content">
+                                                    <div class="modal-header">
+                                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    </div>
+                                                    <form action="get_qoutes.html">
+                                                    <div class="modal-body">
+                                                      
+                                                      <input type="text" placeholder="Fullname" class="form-modal" required> <br />
+                                                      
+                                                      <input type="email" placeholder="Email" class="form-modal" required> <br />
+                                                      
+                                                      <input type="text" placeholder="Phone Number" class="form-modal" required> <br />
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                     <button type="submit" class="btn submit-modal" >Submit</button>
+                                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>  
+                                                    </form>
+                                                  </div>
+                                                  
+                                                </div>
+                                              </div>
                                             <!-- <div class="main__img--container">
                                                 <img src="images/pic1.svg" alt="pic" id="main__img">
                                             </div> -->
@@ -119,7 +151,7 @@
             
             <div class="tm-section tm-position-relative">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="tm-section-down-arrow">
-                    <polygon fill="#ee5057" points="0,0  100,0  50,60"></polygon>                   
+                    <polygon fill="#00a8ec" points="0,0  100,0  50,60"></polygon>                   
                 </svg> 
                 <div class="container tm-pt-5 tm-pb-4">
                     <div class="row text-center">
